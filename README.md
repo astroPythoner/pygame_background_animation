@@ -6,7 +6,7 @@ A background with moving points and lines made with pygame
 
 ***
 
-![](https://raw.githubusercontent.com/pygame_background_animation/Shmup/master/screenshot1.png)
+![](https://raw.githubusercontent.com/astroPythoner/pygame_background_animation/master/screenshot1.png)
 
 # Verwendung
 
