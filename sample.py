@@ -11,7 +11,7 @@ screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("moving background")
 
 # initialize background
-b1 = Background(width,height,pygame.Color(0,255,0),pygame.Color(0,0,0),pygame.Color(255,0,0),max_speed=4,connection_distance=100,connection_line_width=2)
+b1 = Background(width,height,pygame.Color(0,255,0),pygame.Color(0,0,0),pygame.Color(255,0,0),max_speed=7,connection_distance=100,connection_line_width=2)
 
 # loop pygame
 clock = pygame.time.Clock()
@@ -21,8 +21,7 @@ while not done:
     i += 1
     if i == 1000:
         i = 0
-    print(i)
-    clock.tick(200)
+    clock.tick(30)
 
     # Quit event
     for event in pygame.event.get():
