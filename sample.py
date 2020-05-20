@@ -1,5 +1,10 @@
 import pygame
-from pygame_background import Background
+try:
+    from pygame_background import Background
+except ImportError:
+    from moving_background import pygame_background
+    Background = pygame_background.Background
+
 from random import randrange
 
 width = 960
