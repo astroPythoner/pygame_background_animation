@@ -7,8 +7,8 @@ except ImportError:
 
 from random import randrange
 
-width = 960
-height = 680
+width = 1000
+height = 700
 
 # initialize pygame
 pygame.init()
